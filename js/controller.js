@@ -8,6 +8,7 @@ app.controller('controller', function($scope) {
       $scope.flickerJson = data;
       $scope.galleryJson = [];
       
+      
       for ( var i = 0; i < data.photos.photo.length; i++) {
         var photo = data.photos.photo[i];
         var baseUrl = 'http://farm' + photo.farm + '.static.flickr.com/' +
@@ -25,7 +26,14 @@ app.controller('controller', function($scope) {
         $scope.galleryJson.push(json);
         
       }
-        blueimp.Gallery($scope.galleryJson, $('#blueimp-gallery').data());
+      
+      //set the configuration properties
+      $('#blueimp-gallery').data('useBootstrapModal', false);
+      $('#blueimp-gallery').data('closeOnEscape', false);
+      $('#blueimp-gallery').data('closeOnSlideClick', false);
+      $('#blueimp-gallery').data('closeOnSwipeUpOrDown', false);
+      
+      blueimp.Gallery($scope.galleryJson, $('#blueimp-gallery').data());
       
     };
 });

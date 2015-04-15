@@ -12,10 +12,6 @@
 /*jslint unparam: true */
 /*global blueimp, $ */
 
-
-
-
-
 $(function () {
     'use strict';
 
@@ -47,10 +43,6 @@ $(function () {
         angular.element(document.getElementById('body')).scope().makeGallerySlider(result);
     });
     
-    //load page with border less enabled
-     $('#blueimp-gallery').data('useBootstrapModal', false);
-     $('#blueimp-gallery').toggleClass('blueimp-gallery-controls', true);
-
     $('#borderless-checkbox').on('change', function () {
         var borderless = $(this).is(':checked');
         $('#blueimp-gallery').data('useBootstrapModal', !borderless);
