@@ -32,8 +32,6 @@ app.controller('controller', function($scope) {
       $('#blueimp-gallery').data('closeOnEscape', false);
       $('#blueimp-gallery').data('closeOnSlideClick', false);
       $('#blueimp-gallery').data('closeOnSwipeUpOrDown', false);
-      $('#blueimp-gallery').data('transitionSpeed', 300);
-      
       
       blueimp.Gallery($scope.galleryJson, $('#blueimp-gallery').data());
       
