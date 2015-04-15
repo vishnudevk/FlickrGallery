@@ -12,6 +12,10 @@
 /*jslint unparam: true */
 /*global blueimp, $ */
 
+
+
+
+
 $(function () {
     'use strict';
 
@@ -27,7 +31,7 @@ $(function () {
         dataType: 'jsonp',
         jsonp: 'jsoncallback'
     }).done(function (result) {
-        var linksContainer = $('#links'),
+        /*var linksContainer = $('#links'),
             baseUrl;
         // Add the demo images as links with thumbnails to the page:
         $.each(result.photos.photo, function (index, photo) {
@@ -39,7 +43,8 @@ $(function () {
                 .prop('title', photo.title)
                 .attr('data-gallery', '')
                 .appendTo(linksContainer);
-        });
+        });*/
+        angular.element(document.getElementById('body')).scope().makeGallerySlider(result);
     });
     
     //load page with border less enabled
