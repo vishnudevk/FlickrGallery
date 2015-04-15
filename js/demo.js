@@ -20,8 +20,9 @@ $(function () {
         url: 'https://api.flickr.com/services/rest/',
         data: {
             format: 'json',
-            method: 'flickr.interestingness.getList',
-            api_key: '7617adae70159d09ba78cfec73c13be3'
+            method: 'flickr.people.getPhotos',
+            api_key: '7617adae70159d09ba78cfec73c13be3',
+            user_id:  '117089257@N03'
         },
         dataType: 'jsonp',
         jsonp: 'jsoncallback'
