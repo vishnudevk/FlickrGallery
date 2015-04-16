@@ -22,7 +22,7 @@ $(function () {
             format: 'json',
             method: 'flickr.people.getPhotos',
             api_key: '7617adae70159d09ba78cfec73c13be3',
-            user_id:  '117089257@N03'
+            user_id:  '131888081@N08'
         },
         dataType: 'jsonp',
         jsonp: 'jsoncallback'
