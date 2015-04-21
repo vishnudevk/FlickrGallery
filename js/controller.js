@@ -1,3 +1,11 @@
+/** @author Vishnudev.K
+ * This is the angular js controller.
+ * Input to the function makeGallerySlider is taken from gallerybuilder 
+ * contraining the response from flickr api
+ * It creates url for image from the Flickr response
+ * 
+ * It is also setting the gallery properties
+ */
 var app = angular.module('fickerGallery', []);
 app.controller('controller', function($scope) {
     
