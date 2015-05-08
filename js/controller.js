@@ -42,6 +42,6 @@ app.controller('controller', function($scope) {
       $('#blueimp-gallery').data('closeOnSwipeUpOrDown', false);
       
       blueimp.Gallery($scope.galleryJson, $('#blueimp-gallery').data());
-      
+       $(".slide-content").click(); // body to hide share button
     };
 });
