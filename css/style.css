@@ -9,15 +9,22 @@
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
  */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(../fonts/roboto.woff2) format('woff2'), url(../fonts/roboto.woff) format('woff');
+}
 
 body {
     padding-top: 60px;
     background: #222;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
-h1 {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-}
+/*h1 {
+    font-family: 'Roboto', sans-serif;
+}*/
 a {
     color: orange;
 }
@@ -28,4 +35,8 @@ a:hover {
 .modal {
 	overflow: auto;
 	color: #333;
+}
+
+.close.glyphicon.glyphicon-exclamation-sign{
+    padding-right: 1.5em;
 }

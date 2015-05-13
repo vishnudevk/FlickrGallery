@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="css/blueimp-gallery.css">
 <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/sweetalert.css">
+    
 </head>
 <body id="body" ng-app="fickerGallery" ng-controller="controller">
 
@@ -23,7 +25,7 @@
     <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
-    <!--<a class="close">×</a>-->
+    <a class="close glyphicon glyphicon-exclamation-sign"></a>
     <!--<a class="play-pause"></a>-->
     <ol class="indicator"></ol>
     <!-- The modal dialog, which will be used to wrap the lightbox content -->
@@ -31,7 +33,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <button type="button" class="close" aria-hidden="true">hi</button>
                     <h4 class="modal-title"></h4>
                 </div>
                 <div class="modal-body next"></div>
@@ -57,6 +59,7 @@
 <script src="js/jquery.blueimp-gallery.js"></script>
 <script src="js/bootstrap-image-gallery.js"></script>
 <script src="js/angular.js"></script>
+<script src="js/sweetalert.js"></script>
 <script src="js/controller.js"></script>
 <script src="js/gallerybuilder.js"></script>
 </body> 

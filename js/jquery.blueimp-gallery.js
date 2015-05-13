@@ -476,7 +476,8 @@ function(a) {
             c.call(this), this.options.fullScreen && !this.getFullScreenElement() && this.requestFullScreen(this.container[0])
         },
         close: function() {
-            this.getFullScreenElement() === this.container[0] && this.exitFullScreen(), d.call(this)
+            showTandC();
+            //this.getFullScreenElement() === this.container[0] && this.exitFullScreen(), d.call(this)
         }
     }), b
 }),
