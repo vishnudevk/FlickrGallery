@@ -28,7 +28,7 @@ showTandC = function(){
 		title: "Disclaimer",
 		text: "The contents of this app is for general information purposes only. "+
                 " We are not holding the responsibility for quality or authority of contents",
-		type: "warning",
+		type: "Warning",
 		showCancelButton: false,
 		confirmButtonColor: '#DD6B55',
 		confirmButtonText: 'I Agree',
