@@ -67,11 +67,11 @@
   float: left;
   height: 100%;
   text-align: center;
-  -webkit-transition-timing-function: cubic-bezier(.51,.51,.65,.64);
-     -moz-transition-timing-function: cubic-bezier(.51,.51,.65,.64);
-      -ms-transition-timing-function: cubic-bezier(.51,.51,.65,.64);
-       -o-transition-timing-function: cubic-bezier(.51,.51,.65,.64);
-          transition-timing-function: cubic-bezier(.51,.51,.65,.64);
+ -webkit-transition-timing-function:  ease;
+    -moz-transition-timing-function:  ease;
+     -ms-transition-timing-function:  ease;
+      -o-transition-timing-function:  ease;
+         transition-timing-function:  ease;
 }
 .blueimp-gallery,
 .blueimp-gallery > .slides > .slide > .slide-content {
