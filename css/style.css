@@ -41,7 +41,7 @@ a:hover {
     padding-right: 1.5em;
 }
 
-overlay1 {
+.overlay1 {
     position: absolute;
     top: 50%;
     left: 50%;
