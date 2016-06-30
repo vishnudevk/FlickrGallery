@@ -41,7 +41,7 @@ a:hover {
     padding-right: 1.5em;
 }
 
-./*overlay {
+overlay1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -51,4 +51,4 @@ a:hover {
     margin-top: -64px;
     background: url("../img/loading.gif") ;
     background-repeat: no-repeat;
-}*/
+}
